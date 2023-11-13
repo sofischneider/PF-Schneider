@@ -244,6 +244,7 @@ main h1 {
 }
 
 .tituloCentrado {
+    font-size: 2.5rem;
     text-align: center;
     font-weight: 400;
     width: 100%;
@@ -523,6 +524,7 @@ main h1 {
 }
 
 .contactoInfo h3 {
+    font-size: 30px;
     margin-bottom: 20px
 }
 
@@ -552,7 +554,15 @@ main h1 {
     fill: none;
 }
 
+.contactoForm h3 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
 /*MEDIA QUERIES*/
+
+/*TABLET*/
 
 @media (max-width: 1024px) {
 
@@ -588,22 +598,8 @@ main h1 {
 
 }
 
-/*PLANES*/
-/*BOOTSTRAP*/
 
-.btn-primary {
-    color: #363636;
-    background-color: #AADFD8;
-    border: none;
-    font-weight: 800;
-}
-
-.btn-primary:hover {
-    color: white;
-    background-color: #363636;
-}
-
-
+/*MOBILE*/
 @media (max-width: 680px) {
     .serviciosContenedor {
         grid-template-columns: 1fr;
@@ -621,10 +617,31 @@ main h1 {
         grid-template-columns: 1fr;
     }
 
+    .contactoContenedor input,
+    .contactoContenedor textarea {
+        width: 400px;
+    }
+
     footer {
         grid-template-columns: 1fr;
         text-align: center;
 
     }
+}
 
+
+
+/*PLANES*/
+/*BOOTSTRAP*/
+
+.btn-primary {
+    color: #363636;
+    background-color: #AADFD8;
+    border: none;
+    font-weight: 800;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #363636;
 }
