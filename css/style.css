@@ -622,6 +622,10 @@ main h1 {
         width: 400px;
     }
 
+    .contactoForm {
+        padding: 25px;
+    }
+
     footer {
         grid-template-columns: 1fr;
         text-align: center;
