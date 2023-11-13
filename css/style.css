@@ -122,6 +122,7 @@ ul {
     margin: 10px auto;
     border-radius: 50px;
     border: 1px solid transparent;
+    text-decoration: none;
 }
 
 .botonCustom.left {
