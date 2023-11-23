@@ -1,0 +1,66 @@
+/*BOTONES*/
+
+.botonCustom {
+    display: block;
+    font-weight: 700;
+    background-color: #fff;
+    color: #363636;
+    padding: 10px 20px;
+    max-width: 180px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    text-decoration: none;
+
+    &.left {
+        margin: 0;
+        margin-right: auto;
+        margin-top: 20px;
+        max-width: 150px;
+    }
+
+    &:hover {
+        background-color: #363636;
+        color: white;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+}
+
+/*Enlace a whatsapp: botón Pop-Up*/
+
+.whatsapp {
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-image: url('../assets/whatsapp-icon.png');
+    background-size: contain;
+
+    &:hover {
+        background-image: url('../assets/whatsapp-icon-2.png');
+    }
+}
+
+section {
+    color: white;
+}
+
+input,
+textarea {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 2rem;
+}

@@ -1,0 +1,21 @@
+/*PLANES*/
+/*BOOTSTRAP*/
+.planesContenedor {
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+
+.btn-primary {
+    color: #363636;
+    background-color: #AADFD8;
+    border: none;
+    font-weight: 800;
+
+    &:hover {
+        color: white;
+        background-color: #363636;
+    }
+}

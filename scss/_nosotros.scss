@@ -1,0 +1,180 @@
+/*NOSOTROS*/
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+.nosotrosContenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    gap: 15px;
+}
+
+.nosotrosItem {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #363636;
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    h3 {
+        position: absolute;
+        color: white;
+        font-size: 1.5rem;
+        left: 10%;
+        bottom: 13%;
+        margin: 0;
+    }
+
+    p {
+        position: absolute;
+        color: white;
+        font-size: 1rem;
+        left: 10%;
+        bottom: 5%;
+        margin: 0;
+    }
+}
+
+.nosotrosText {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 50px;
+    margin: auto;
+    gap: 20px;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 60px;
+        font-weight: 800;
+        margin: 0;
+        line-height: 68px;
+
+        span {
+            font-weight: 400;
+            display: block;
+        }
+    }
+
+    p {
+        font-size: 25px;
+        margin: 0;
+        max-width: 60%;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.proceso {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    padding: auto;
+    margin: 20px;
+    gap: 20px;
+    background-image: url("../assets/trama-umbral.png");
+    background-size: contain;
+}
+
+.procesoContenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 50px;
+    color: #363636;
+    padding: 10% 30% 10% 10%;
+
+    h2 {
+        font-weight: 900;
+        margin: 0;
+        font-size: 70px;
+        line-height: auto;
+    }
+
+    h3 {
+        font-weight: 900;
+        margin: 0;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
+
+.pasosContenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #AADFD8;
+    color: #363636;
+    border-radius: 50px;
+    padding: 70px;
+    gap: 20px;
+}
+
+.pasosItem {
+    color: #363636;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+
+    &.ultimo .pasosItemContent {
+        border-bottom: none;
+    }
+
+    span {
+        background-color: #363636;
+        color: #ffffff;
+        padding: 20px;
+        font-weight: 800;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+}
+
+.pasosItemContent {
+    border-bottom: 1px solid #363636;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.pasosItem {
+    h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
