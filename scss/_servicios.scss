@@ -20,8 +20,8 @@
 }
 
 .servicioItem {
-    background-color: #D6E8F1;
-    color: #363636;
+    background-color: $color-celeste;
+    color: $color-negro;
     padding: 50px;
     border-radius: 30px;
     display: flex;
@@ -36,7 +36,7 @@
 
 .servicioItem {
     &.servicioDestacado {
-        background-color: #ffffff;
+        background-color: $color-blanco;
     }
 
     img {
@@ -45,7 +45,7 @@
     }
 
     h1 {
-        color: #363636;
+        color: $color-negro;
         font-size: 2.2rem;
         line-height: 2.8rem;
 

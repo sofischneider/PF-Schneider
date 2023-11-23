@@ -1,10 +1,10 @@
 /*HEADER*/
 
 header {
-    background-color: #363636;
+    background-color: $color-negro;
 
     .nav-item a {
-        color: white;
+        color: $color-blanco;
     }
 }
 
@@ -12,7 +12,7 @@ header {
 
     &:focus,
     &:hover {
-        color: #AADFD8;
+        color: $color-celeste;
     }
 }
 

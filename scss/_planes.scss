@@ -10,12 +10,12 @@
 
 .btn-primary {
     color: #363636;
-    background-color: #AADFD8;
+    background-color: $color-verde;
     border: none;
     font-weight: 800;
 
     &:hover {
-        color: white;
-        background-color: #363636;
+        color: $color-blanco;
+        background-color: $color-negro;
     }
 }

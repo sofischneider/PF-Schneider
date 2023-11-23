@@ -3,8 +3,8 @@
 .botonCustom {
     display: block;
     font-weight: 700;
-    background-color: #fff;
-    color: #363636;
+    background-color: $color-blanco;
+    color: $color-negro;
     padding: 10px 20px;
     max-width: 180px;
     text-align: center;
@@ -21,9 +21,9 @@
     }
 
     &:hover {
-        background-color: #363636;
-        color: white;
-        border: 1px solid white;
+        background-color: $color-negro;
+        color: $color-blanco;
+        border: 1px solid $color-blanco;
         cursor: pointer;
     }
 }
@@ -45,7 +45,7 @@
 }
 
 section {
-    color: white;
+    color: $color-blanco;
 }
 
 input,

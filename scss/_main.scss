@@ -3,12 +3,12 @@
 /*MAIN*/
 
 main {
-    color: white;
+    color: $color-blanco;
     display: flex;
     flex-direction: column;
 
     h1 {
-        color: white;
+        color: $color-blanco;
         font-size: 3rem;
         font-family: 'Manrope', sans-serif;
         font-weight: 900;
@@ -29,7 +29,7 @@ main {
 }
 
 .heroTitle {
-    color: white;
+    color: $color-blanco;
     font-size: 3rem;
     font-family: 'Manrope', sans-serif;
     font-weight: 900;
