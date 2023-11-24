@@ -4,12 +4,21 @@
 
 @media (max-width: 1024px) {
 
-    .hero {
+    .heroContenedor {
         grid-template-columns: 1fr;
     }
 
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+
     .heroText {
         margin: 40px;
+    }
+
+    .heroParrafo {
+        font-size: 1rem;
     }
 
     .heroImg {
@@ -38,6 +47,10 @@
         padding: 40px;
     }
 
+    .nosotrosText p {
+        max-width: 100%;
+    }
+
     .proceso {
         grid-template-columns: 1fr;
     }
@@ -56,6 +69,12 @@
 
 /*MOBILE*/
 @media (max-width: 680px) {
+
+    .heroTitle {
+        font-size: 1.5rem;
+    }
+
+
     .serviciosContenedor {
         grid-template-columns: 1fr;
     }
