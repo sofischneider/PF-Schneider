@@ -17,35 +17,21 @@
 
     h3 {
         font-weight: 900;
-        font-size: 35px;
+        font-size: $tam-subtitulo;
     }
 
     p {
-        font-size: 1rem;
+        font-size: calc($tam-texto - 0.5rem);
     }
 }
 
+//MIXIN servicioItem
 .servicioItem {
-    background-color: $color-celeste;
-    color: $color-negro;
-    padding: 50px;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    @include itemBackground ($color-celeste);
+    @include servicioItem;
 
-    h3 {
-        font-size: 1.5rem;
-        padding-bottom: 10px;
-
-    }
-}
-
-
-.servicioItem {
     &.servicioDestacado {
-        background-color: $color-blanco;
+        @include itemBackground ($color-blanco);
     }
 
     img {
@@ -56,9 +42,13 @@
 
     h1 {
         color: $color-negro;
-        font-size: 2.2rem;
+        font-size: calc($tam-subtitulo + 0.2rem);
         line-height: 2.8rem;
         padding-bottom: 20px;
+    }
 
+    h3 {
+        font-size: $tam-texto;
+        padding-bottom: 10px;
     }
 }

@@ -1,0 +1,53 @@
+/*MIXIN*/
+
+/*SERVICIOS*/
+@mixin servicioItem {
+    color: $color-negro;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+@mixin itemBackground ($background) {
+    background-color: $background;
+}
+
+/*NOSOTROS*/
+
+@mixin nosotrosItem {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: $color-negro;
+
+    img {
+        position: absolute;
+        max-width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    h3 {
+        position: absolute;
+        color: $color-blanco;
+        font-size: 1.5rem;
+        left: 10%;
+        bottom: 13%;
+        margin: 0;
+    }
+
+    p {
+        position: absolute;
+        color: $color-blanco;
+        font-size: 1rem;
+        left: 10%;
+        bottom: 5%;
+        margin: 0;
+    }
+}

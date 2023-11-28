@@ -9,7 +9,7 @@ main {
 
     h1 {
         color: $color-blanco;
-        font-size: 3rem;
+        font-size: $tam-titulo;
         font-family: 'Manrope', sans-serif;
         font-weight: 900;
         line-height: 60px;
@@ -41,7 +41,7 @@ main {
 
 .heroTitle {
     color: $color-blanco;
-    font-size: 4rem;
+    font-size: $tam-titulo;
     font-family: 'Manrope', sans-serif;
     font-weight: 900;
 
@@ -52,5 +52,5 @@ main {
     display: flex;
     flex-direction: column;
     font-family: 'Manrope', sans-serif;
-    font-size: 1.5rem;
+    font-size: $tam-texto;
 }

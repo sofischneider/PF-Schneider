@@ -26,17 +26,17 @@
 
 .contactoInfo {
     h1 {
-        font-size: 2rem;
+        font-size: calc($tam-titulo - 0.5rem);
         padding-bottom: 10px;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: $tam-subtitulo;
         margin-bottom: 20px;
     }
 
     p {
-        font-size: 19px;
+        font-size: $tam-texto;
         margin-bottom: 50px;
     }
 }
@@ -62,7 +62,7 @@
 }
 
 .contactoForm h3 {
-    font-size: 30px;
+    font-size: $tam-subtitulo;
     padding-top: 0;
     padding-bottom: 20px;
 }
