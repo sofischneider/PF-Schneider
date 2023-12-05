@@ -470,6 +470,11 @@ h3 {
   padding-bottom: 20px;
 }
 
+.svgIcon {
+  width: 20px;
+  height: 20px;
+}
+
 /*FOOTER*/
 footer {
   color: #F8FAF9;
