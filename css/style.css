@@ -359,7 +359,7 @@ h3 {
   background-color: #D6E8F1;
   color: #363636;
   border-radius: 50px;
-  padding: 70px;
+  padding: 30px;
   gap: 20px;
 }
 
@@ -588,7 +588,7 @@ ul {
     line-height: 23px;
   }
   .pasosContenedor {
-    padding: 50px 20px;
+    padding: 20px 10px;
   }
   .contactoContenedor {
     grid-template-columns: 1fr;
@@ -652,6 +652,9 @@ ul {
   .procesoContenedor h2 {
     font-size: 2rem;
     line-height: 35px;
+  }
+  .pasosContenedor {
+    padding: 20px 10px;
   }
   .contactoContenedor {
     padding: 0;
