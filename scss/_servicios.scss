@@ -47,6 +47,14 @@
         padding-bottom: 20px;
     }
 
+    h2 {
+        color: $color-negro;
+        font-size: calc($tam-subtitulo + 0.2rem);
+        font-weight: 900;
+        line-height: 2.8rem;
+        padding-bottom: 20px;
+    }
+
     h3 {
         font-size: $tam-texto;
         padding-bottom: 10px;

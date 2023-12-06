@@ -231,6 +231,13 @@ h3 {
   line-height: 2.8rem;
   padding-bottom: 20px;
 }
+.servicioItem h2 {
+  color: #363636;
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 2.8rem;
+  padding-bottom: 20px;
+}
 .servicioItem h3 {
   font-size: 1.5rem;
   padding-bottom: 10px;
@@ -561,6 +568,10 @@ ul {
   }
   .serviciosContenedor {
     grid-template-columns: 1fr 1fr;
+  }
+  .servicioDestacado h2 {
+    font-size: 1.8rem;
+    line-height: normal;
   }
   .nosotros {
     grid-template-columns: 1fr;
