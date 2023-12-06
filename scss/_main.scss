@@ -16,7 +16,6 @@ main {
     }
 }
 
-
 .heroContenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,7 +43,7 @@ main {
     font-size: $tam-titulo;
     font-family: 'Manrope', sans-serif;
     font-weight: 900;
-
+    max-width: 70%;
 
 }
 
@@ -53,4 +52,5 @@ main {
     flex-direction: column;
     font-family: 'Manrope', sans-serif;
     font-size: $tam-texto;
+    max-width: 70%;
 }

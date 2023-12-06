@@ -8,17 +8,18 @@
         grid-template-columns: 1fr;
     }
 
+    .heroText {
+        margin: 10%;
+        max-width: 100%;
+    }
+
     .heroTitle {
         font-size: 2rem;
     }
 
-
-    .heroText {
-        margin: 40px;
-    }
-
     .heroParrafo {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        max-width: 100%;
     }
 
     .heroImg {
@@ -64,14 +65,65 @@
         line-height: 23px;
     }
 
+    .contactoContenedor {
+        grid-template-columns: 1fr;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .contactoInfo {
+        margin: 0;
+
+        h1 {
+            font-size: 3rem;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    .destacado {
+
+        max-width: 90%;
+
+        p {
+            margin: 0;
+            font-size: 1.5rem;
+
+        }
+    }
+
+    .contactoForm {
+        padding: 20px;
+    }
+
 }
 
 
 /*MOBILE*/
 @media (max-width: 680px) {
 
+    .heroText {
+        margin: 10%;
+
+    }
+
     .heroTitle {
         font-size: 1.5rem;
+        max-width: 100%;
+    }
+
+    .heroParrafo {
+        font-size: 1rem;
+        max-width: 70%;
     }
 
 
@@ -100,19 +152,30 @@
         line-height: 35px;
     }
 
+    .contactoContenedor {
+        padding: 0;
+    }
+
     .contactoContenedor input,
     .contactoContenedor textarea {
-        width: 390px;
+        min-width: 340px;
     }
 
     .contactoInfo {
+
+
+        h1 {
+            font-size: 2rem;
+            line-height: normal;
+        }
+
         p {
-            font-size: 14px;
+            font-size: 1.3rem;
         }
     }
 
     .contactoForm {
-        padding: 30px;
+        padding: 20px;
     }
 
     footer {

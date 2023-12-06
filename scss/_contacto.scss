@@ -1,32 +1,49 @@
 /*CONTACTO*/
 
 .contactoContenedor {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
+    overflow: hidden;
 
     input {
-        max-width: 500px;
-        padding: 10px;
+        width: 100%;
+        padding: 3%;
         margin-bottom: 10px;
         border-radius: 10px;
     }
 
     textarea {
-        width: 500px;
-        padding: 10px;
+        display: block;
+        width: 100%;
+        padding: 3%;
         margin-bottom: 10px;
         border-radius: 10px;
-        resize: none;
+        overflow: auto;
     }
 }
 
+.contactoForm {
+    padding: 10%;
+
+
+    h3 {
+        font-size: $tam-subtitulo;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+
+}
+
 .contactoInfo {
+    padding: 10%;
+
     h1 {
-        font-size: calc($tam-titulo - 0.5rem);
+        font-size: $tam-titulo;
         padding-bottom: 10px;
     }
 
@@ -44,6 +61,7 @@
 .destacado {
     background-color: $color-verde;
     color: $color-negro;
+    max-width: 80%;
     font-weight: 700;
     padding: 25px;
     border-radius: 0px 20px 20px 20px;
@@ -52,6 +70,7 @@
 
     p {
         margin: 0;
+        font-size: 1.5rem;
     }
 
     svg {
@@ -60,18 +79,6 @@
         fill: none;
     }
 }
-
-.contactoForm {
-
-    h3 {
-        font-size: $tam-subtitulo;
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-
-
-}
-
 
 
 
