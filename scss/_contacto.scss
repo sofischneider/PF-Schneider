@@ -9,7 +9,7 @@
     margin-bottom: 50px;
 
     input {
-        width: 500px;
+        max-width: 500px;
         padding: 10px;
         margin-bottom: 10px;
         border-radius: 10px;
@@ -61,11 +61,16 @@
     }
 }
 
-.contactoForm h3 {
-    font-size: $tam-subtitulo;
-    padding-top: 0;
-    padding-bottom: 20px;
+.contactoForm {
+    h3 {
+        font-size: $tam-subtitulo;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
 }
+
+
+
 
 .svgIcon {
     width: 20px;
