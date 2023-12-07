@@ -374,7 +374,7 @@ h3 {
   color: #363636;
   padding-bottom: 10px;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 20px;
 }
 .pasosItem.ultimo .pasosItemContent {
