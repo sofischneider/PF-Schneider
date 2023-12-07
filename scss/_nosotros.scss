@@ -111,7 +111,7 @@
     color: $color-negro;
     padding-bottom: 10px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 20px;
 
     &.ultimo .pasosItemContent {
@@ -121,11 +121,14 @@
     span {
         background-color: $color-negro;
         color: $color-blanco;
-        padding: 20px;
-        font-weight: 800;
         font-size: $tam-texto;
+        font-weight: 800;
+        display: grid;
+        place-content: center;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
-        margin-right: 10px;
+
     }
 }
 
@@ -133,6 +136,7 @@
     border-bottom: 1px solid $color-negro;
     display: flex;
     flex-direction: column;
+    align-self: center;
     gap: 10px;
     padding-bottom: 20px;
 }
